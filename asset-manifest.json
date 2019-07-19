@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sigplot-tutorial/static/css/main.2cce8147.chunk.css",
+    "main.js": "/sigplot-tutorial/static/js/main.a57f7c83.chunk.js",
+    "main.js.map": "/sigplot-tutorial/static/js/main.a57f7c83.chunk.js.map",
+    "runtime~main.js": "/sigplot-tutorial/static/js/runtime~main.9883d748.js",
+    "runtime~main.js.map": "/sigplot-tutorial/static/js/runtime~main.9883d748.js.map",
+    "static/js/2.b41502e9.chunk.js": "/sigplot-tutorial/static/js/2.b41502e9.chunk.js",
+    "static/js/2.b41502e9.chunk.js.map": "/sigplot-tutorial/static/js/2.b41502e9.chunk.js.map",
+    "index.html": "/sigplot-tutorial/index.html",
+    "precache-manifest.e79930abe80cdd6d2830cca9e1c29a42.js": "/sigplot-tutorial/precache-manifest.e79930abe80cdd6d2830cca9e1c29a42.js",
+    "service-worker.js": "/sigplot-tutorial/service-worker.js",
+    "static/css/main.2cce8147.chunk.css.map": "/sigplot-tutorial/static/css/main.2cce8147.chunk.css.map",
+    "static/media/logo.svg": "/sigplot-tutorial/static/media/logo.5d5d9eef.svg"
+  }
+}
