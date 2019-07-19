@@ -75,5 +75,5 @@ SigPlot Hello World
 </script>
 ```
 
-As your first excersize, click the **Expand** button followed by the **Try in Jsfiddle** button.  Then change the code
+As your first exercise, click the **Expand** button followed by the **Try in Jsfiddle** button.  Then change the code
 to plot the cosine instead of the sine.
