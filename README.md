@@ -15,32 +15,7 @@ var plot = new sigplot.Plot(document.getElementById('plot'), {});
 
 Full examples will be shown as seen below.  These examples are fully-working demos that demonstrate how to use SigPlot.  By
 pressing the **Expand** button you can see the code used in the example.  If you want to play with the code in an interactive
-environment you can press the **Try in Jsfiddle** button to load the example into [JSFiddle](https://jsfiddle.net).  Although the examples
-are built within a [Vue.js](https://vuejs.org) context, the SigPlot code within the `mounted()` function 
-does not require nor use any Vue functionality.
-
-For example, this simple SigPlot code will plot one-cycle of a sine wave.
-
-```html
-<html>
-    <body>
-        <div id='plot' style="height: 400px; width: 100%;">
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/sigplot/dist/sigplot-debug.js"></script>
-        <script>
-            var plot = new sigplot.Plot(document.getElementById('plot'), {});
-            var data = [];
-            var npts = 1024;
-            for (var ii=0; ii<npts; ++ii) {
-                data.push(Math.sin((ii*2*Math.PI)/npts));
-            }
-            plot.overlay_array(data);
-        </script>
-    </body>
-</html>
-```
-
-Which results in this:
+environment you can press the **Try in Jsfiddle** button to load the example into [JSFiddle](https://jsfiddle.net).
 
 ```html
 /*vue*/
@@ -75,7 +50,29 @@ SigPlot Hello World
 </script>
 ```
 
-As your first excersize, click the **Expand** button followed by the **Try in Jsfiddle** button.  Then change the code
+Although the examples are built within a [Vue.js](https://vuejs.org) context, the SigPlot code within the `mounted()` function 
+does not require nor use any Vue functionality.  The below code is a fully standalone equivalent to the above example.
+
+```html
+<html>
+    <body>
+        <div id='plot' style="height: 400px; width: 100%;">
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sigplot/dist/sigplot-debug.js"></script>
+        <script>
+            var plot = new sigplot.Plot(document.getElementById('plot'), {});
+            var data = [];
+            var npts = 1024;
+            for (var ii=0; ii<npts; ++ii) {
+                data.push(Math.sin((ii*2*Math.PI)/npts));
+            }
+            plot.overlay_array(data);
+        </script>
+    </body>
+</html>
+```
+
+As your first excersize, click the **Expand** button above then followed by the **Try in Jsfiddle** button.  Change the code
 to plot the cosine instead of the sine.  Your answer should look like this:
 
 ```html
