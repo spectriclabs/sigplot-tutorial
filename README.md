@@ -76,4 +76,37 @@ SigPlot Hello World
 ```
 
 As your first excersize, click the **Expand** button followed by the **Try in Jsfiddle** button.  Then change the code
-to plot the cosine instead of the sine.
+to plot the cosine instead of the sine.  Your answer should look like this:
+
+```html
+/*vue*/
+<desc>
+SigPlot Hello World
+</desc>
+
+<style>
+    #plot {
+    height: 400px;
+    width: 100%;
+    }
+</style>
+
+<template>
+    <div id='plot'>
+    </div>
+</template>
+
+<script>
+    export default {
+        mounted() {
+            var plot = new sigplot.Plot(document.getElementById('plot'), {});
+            var data = [];
+            var npts = 1024;
+            for (var ii=0; ii<npts; ++ii) {
+                data.push(Math.cos((ii*2*Math.PI)/npts));
+            }
+            plot.overlay_array(data);
+        }
+    }
+</script>
+```
