@@ -85,21 +85,21 @@ SigPlot Hello World
 </desc>
 
 <style>
-    #plot {
+    #plot2 {
     height: 400px;
     width: 100%;
     }
 </style>
 
 <template>
-    <div id='plot'>
+    <div id='plot2'>
     </div>
 </template>
 
 <script>
     export default {
         mounted() {
-            var plot = new sigplot.Plot(document.getElementById('plot'), {});
+            var plot = new sigplot.Plot(document.getElementById('plot2'), {});
             var data = [];
             var npts = 1024;
             for (var ii=0; ii<npts; ++ii) {
