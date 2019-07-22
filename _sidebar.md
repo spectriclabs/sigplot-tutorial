@@ -1,2 +1,25 @@
-* [Home](/)
-* [Quick Start](Quick_Start.md)
+- SigPlot Basics
+- [Introduction](/)
+- [Quick Start](Quick_Start.md)
+- [Basic Line Plots](Basic_Line_Plots.md)
+- [Basic Raster Plots](Basic_Raster_Plots.md)
+- [Streaming Line Plots](Streaming_Line_Plots.md)
+- [Streaming Raster Plots](Streaming_Raster_Plots.md)
+- Interacting With SigPlot
+- [Mouse Events](Mouse_Events.md)
+- [Zoom](Zoom.md)
+- [Changing Settings](Changing_Settings.md)
+- [Menu](Menu.md)
+- Plotting Data Files
+- [Plotting Audio Buffers](Plotting_Audio_Buffers.md)
+- [Plotting Matlab Files](Plotting_Matlab_Files.md)
+- [Plotting BLUE Files](Plotting_Blue_Files.md)
+- [Plotting Raw Files](Plotting_Raw_Files.md)
+- SigPlot Plugins
+- [Slider](Slider_Plugin.md)
+- [Accordion](Accordion_Plugin.md)
+- [Boxes](Boxes_Plugin.md)
+- [Annotations](Annotations_Plugin.md)
+- [Playback](Playback_Plugin.md)
+- Appendix
+  - [Units](appendix/Units.md)
