@@ -3,6 +3,7 @@
 - [Quick Start](Quick_Start.md)
 - [Basic Line Plots](Basic_Line_Plots.md)
 - [Basic Raster Plots](Basic_Raster_Plots.md)
+- [Basic I/Q Plots](Basic_IQ_Plots.md)
 - [Streaming Line Plots](Streaming_Line_Plots.md)
 - [Streaming Raster Plots](Streaming_Raster_Plots.md)
 - Interacting With SigPlot
